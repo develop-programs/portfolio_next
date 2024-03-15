@@ -1,0 +1,165 @@
+{
+  "home": {
+    "title": "Hi!'👋' I am",
+    "name": "Shreyansh Awadhiya",
+    "role": ["Frontend Developer", "Backend Developer", "Full Stack Developer"]
+  },
+  "about": {
+    "title": "About Me",
+    "desc": "Dynamic and skilled Full Stack Developer with 1 years of experience in designing, implementing, and maintaining web applications. Proficient in both front-end and back-end technologies, with a strong focus on delivering high-quality, scalable solutions. Seeking to leverage expertise in software development to contribute to innovative projects and drive business growth.",
+    "details": [
+      {
+        "title": "Name",
+        "value": "Shreyansh Awadhiya"
+      },
+      {
+        "title": "Address",
+        "value": "Raipur, Chhattisgarh"
+      },
+      {
+        "title": "Email",
+        "value": "shreyanshawadhiya@gmail.com"
+      },
+      {
+        "title": "Phone",
+        "value": "+91 9294512259"
+      },
+      {
+        "title": "Github",
+        "value": "https://github.com/develop-programs"
+      },
+      {
+        "title": "LinkedIn",
+        "value": "https://www.linkedin.com/in/shreyansh-awadhiya-7107a0240/"
+      }
+    ]
+  },
+  "resume": {
+    "educations": {
+      "title": "Educations",
+      "higherEdu": [
+        {
+          "duration": "2016 - 2019",
+          "title": "10th/12th",
+          "from": "Bharat Mata Hr. Sec. School",
+          "desc": "I completed my 10th and 12th-grade education from Bharat Mata Hr. Sec. School with a focus on achieving academic excellence and developing a strong foundation in key subjects. During this period, I gained proficiency in subjects such as Mathematics, Science, English, and Social Studies, demonstrating consistent dedication to learning and achieving high grades"
+        }
+      ],
+      "underGrad": [
+        {
+          "duration": "2019 - 2022",
+          "title": "Bachelor of Computer Application",
+          "from": "Ravi Sankar Sukla University",
+          "desc": "I completed my Bachelor of Computer Applications (BCA) degree from Ravi Sankar Sukla University with a focus on equipping myself with a comprehensive understanding of computer science principles and practical skills. Throughout my BCA education, I engaged in a diverse range of coursework covering areas such as Database Management Systems, Object-Oriented Programming, Web Development, Data Structures and Algorithms, and Software Engineering. This academic foundation enabled me to delve into various programming languages, including Java, C++, and Python, while also honing my skills in web development technologies such as HTML, CSS, and JavaScript"
+        }
+      ],
+      "Extras": [
+        {
+          "duration": "2022 - Present",
+          "title": "Full Stack Development",
+          "from": "self",
+          "desc": "I pursued a comprehensive Full Stack Development education, mastering both front-end and back-end technologies. Through immersive coursework, I gained proficiency in HTML, CSS, JavaScript, and popular frameworks like React and Angular for dynamic front-end development. On the back end, I honed skills in server-side programming using Node.js and explored database management with technologies like MongoDB and SQL. Additionally, I acquired knowledge in version control systems such as Git and gained hands-on experience deploying applications on cloud platforms like AWS or Heroku. This Full Stack education equipped me with a diverse skill set to develop scalable, user-centric web applications efficiently."
+        },
+        {
+          "duration": "6,2023 - 9,2023",
+          "title": "AWS Cloud Practitioner",
+          "from": "AISECT",
+          "desc": "I completed AWS Cloud Practitioner education, gaining foundational knowledge in cloud concepts, AWS services, security, and architecture. Through this program, I acquired proficiency in navigating the AWS Management Console, understanding AWS pricing models, and basic cloud infrastructure concepts. I learned to deploy and manage services such as EC2 instances, S3 storage, and RDS databases effectively. Additionally, I developed skills in implementing security measures and best practices for data protection on AWS. This education provided me with a solid understanding of cloud computing fundamentals, preparing me to contribute effectively to cloud-based projects and initiatives."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "top": [
+        {
+          "title": "FrontEnd",
+          "value": 45
+        },
+        {
+          "title": "BackEnd",
+          "value": 85
+        },
+        {
+          "title": "UI/UX",
+          "value": 55
+        }
+      ],
+      "data": [
+        {
+          "title": "HTML",
+          "value": 80
+        },
+        {
+          "title": "CSS",
+          "value": 70
+        },
+        {
+          "title": "JavaScript",
+          "value": 50
+        },
+        {
+          "title": "React",
+          "value": 70
+        },
+        {
+          "title": "Next Js",
+          "value": 70
+        },
+        {
+          "title": "TypeScript",
+          "value": 55
+        },
+        {
+          "title": "AWS",
+          "value": 35
+        },
+        {
+          "title": "Git",
+          "value": 50
+        },
+        {
+          "title": "GitHub",
+          "value": 50
+        },
+        {
+          "title": "Figma",
+          "value": 90
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "data": []
+    },
+    "certifications": {
+      "title": "Certificates",
+      "data": [
+        {
+          "title": "AWS Cloud Practitioner",
+          "from": "AISECT",
+          "link": "https://drive.google.com/file/d/129dXrlke4aaiVtjThUW0GJdqfL2ZEQ_L/view?usp=drive_link"
+        },
+        {
+          "title": "HTML Essential",
+          "from": "LinkedIn Learning",
+          "link": "https://drive.google.com/file/d/1dbP7Qu4z-97g_8UUiW9erNW9pmBpIK-O/view?usp=drive_link"
+        },
+        {
+          "title": "CSS Essential",
+          "from": "LinkedIn Learning",
+          "link": "https://drive.google.com/file/d/18ZxoW02pCpNqciO660_z4yEV44ffyRtm/view?usp=drive_link"
+        },
+        {
+          "title": "JavaScript Essential",
+          "from": "LinkedIn Learning",
+          "link": "https://drive.google.com/file/d/1Gy3LT3SX6YQMYUTX3VTZyiUF48ajYWpO/view?usp=drive_link"
+        },
+        {
+          "title": "React Essential",
+          "from": "LinkedIn Learning",
+          "link": "https://drive.google.com/file/d/1zIHnKhNNsD5pvsOYXkkqrs0Qk8c9DRLs/view?usp=sharing"
+        }
+      ]
+    }
+  }
+}

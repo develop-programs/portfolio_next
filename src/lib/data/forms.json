@@ -1,0 +1,56 @@
+{
+  "form": {
+    "title": "Send a message",
+    "data": [
+      {
+        "name": "Name",
+        "id": "name",
+        "type": "text",
+        "placeholder": "Enter your name"
+      },
+      {
+        "name": "Email",
+        "id": "email",
+        "type": "email",
+        "placeholder": "Enter your email"
+      },
+      {
+        "name": "Subject",
+        "id": "sub",
+        "type": "text",
+        "placeholder": "Enter subject here"
+      },
+      {
+        "name": "Message",
+        "id": "msg",
+        "type": "textarea",
+        "placeholder": "Enter your message"
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Get in touch",
+    "data": [
+      {
+        "icon": "./mail.svg",
+        "media_type": "email",
+        "value": "shreyanshawadhiya@gmail.com"
+      },
+      {
+        "icon": "/whatsapp.svg",
+        "media_type": "What's Up",
+        "value": "+91 790 240 3746"
+      },
+      {
+        "icon": "/location.svg",
+        "media_type": "Address",
+        "value": "Raipur (C.G.), India"
+      },
+      {
+        "icon": "/linkedin.svg",
+        "media_type": "linkedin",
+        "value": "https://www.linkedin.com/in/shreyansh-awadhiya-6b9b221b7/"
+      }
+    ]
+  }
+}
