@@ -38,7 +38,7 @@ export default function Resume() {
   return (
     <div className="w-full h-full flex justify-center">
       <div className="container max-w-[100rem] h-screen grid grid-flow-row grid-cols-6">
-        <div className="col-span-1 h-full space-y-6 pt-52">
+        <div className="col-span-1 h-full space-y-6 pt-52 hidden lg:block">
           {Data.map((items: any, idk: any) => (
             <div key={idk}>
               <div></div>
@@ -60,7 +60,7 @@ export default function Resume() {
             </div>
           ))}
         </div>
-        <div className="col-span-5 w-full h-full overflow-y-auto">
+        <div className="col-span-6  lg:col-span-5 w-full h-full overflow-y-auto">
           <Reveal>
             <div className="w-full h-auto" ref={EduRef} id="Education">
               <Education />
@@ -77,7 +77,7 @@ export default function Resume() {
           </Reveal>
 
           <Reveal>
-            <div className="w-full h-screen" ref={SkillRef} id="Skills">
+            <div className="w-full h-auto" ref={SkillRef} id="Skills">
               <Skills />
             </div>
           </Reveal>

@@ -75,18 +75,18 @@ export default function Navbar({
         Position
           ? "bg-white text-black dark:text-white dark:bg-slate-800 shadow-lg duration-500 ease-in"
           : "text-white duration-700 ease-out"
-      } fixed w-full h-auto py-4 px-4 sm:px-12 grid grid-flow-row grid-cols-12 z-[10]`}
+      } fixed w-full h-auto py-4 px-4 sm:px-12 flex z-[10]`}
     >
-      <div className="col-span-6 sm:col-span-4 flex justify-start items-center">
-        <span className="text-2xl font-black">PORTFOLIO</span>
+      <div className="flex-1 sm:col-span-4 flex justify-start items-center">
+        <span className="sm:text-base lg:text-2xl font-black">PORTFOLIO</span>
       </div>
-      <div className="col-span-4 hidden sm:flex justify-center items-center">
+      <div className="flex-1 hidden sm:flex justify-center items-center">
         <div
           className={`flex justify-center items-center ${
             Position
               ? "bg-transparent duration-700 ease-in"
               : "bg-white dark:bg-slate-800 duration-500 ease-out"
-          } py-3 px-6 rounded-full`}
+          } py-2 px-2 rounded-full`}
         >
           {Data.map((item, index) => {
             return (
@@ -97,7 +97,7 @@ export default function Navbar({
                 }}
                 key={index}
                 variant="ghost"
-                className={`focus-visible:outline-none grid hover:bg-transparent ${
+                className={`focus-visible:outline-none grid hover:bg-transparent sm:text-xs lg:text-sm ${
                   Position
                     ? "text-black hover:text-black/70 dark:text-white dark:hover:text-white/70"
                     : "text-blue-800 hover:text-blue-600 dark:text-white dark:hover:text-white/70"
@@ -116,7 +116,7 @@ export default function Navbar({
           })}
         </div>
       </div>
-      <div className="col-span-6 sm:col-span-4 flex justify-end items-center">
+      <div className="flex-1 sm:col-span-4 flex justify-end items-center">
         <SetTheme />
       </div>
     </motion.div>

@@ -3,7 +3,7 @@ import data from "@/lib/data/information.json";
 
 export default function Education() {
   return (
-    <div className="w-full h-auto pt-32 space-y-4">
+    <div className="w-full h-auto pt-32 space-y-4 p-0">
       <div className="text-start space-y-2">
         <span className="text-2xl font-black">
           {data.resume.educations.title}
@@ -12,7 +12,7 @@ export default function Education() {
       </div>
       <div className="grid space-y-4 divide-y-2">
         {data.resume.educations.higherEdu.map((items, idk) => (
-          <div key={idk} className="flex gap-4">
+          <div key={idk} className="flex flex-col lg:flex-row gap-4 py-[.38rem]">
             <div>
               <svg
                 width="44"
@@ -51,14 +51,14 @@ export default function Education() {
               <span className="text-base font-bold">{items.duration}</span>
               <span className="text-2xl font-black">{items.title}</span>
               <span className="text-xl font-semibold">{items.from}</span>
-              <span className="text-base text-muted-foreground font-bold">
+              <span className="text-sm text-muted-foreground font-semibold leading-5 tracking-wide">
                 {items.desc}
               </span>
             </div>
           </div>
         ))}
         {data.resume.educations.underGrad.map((items, idk) => (
-          <div key={idk} className="flex gap-4">
+          <div key={idk} className="flex flex-col lg:flex-row gap-4 py-[.38rem]">
             <div>
               <svg
                 width="44"
@@ -97,14 +97,14 @@ export default function Education() {
               <span className="text-base font-bold">{items.duration}</span>
               <span className="text-2xl font-black">{items.title}</span>
               <span className="text-xl font-semibold">{items.from}</span>
-              <span className="text-base text-muted-foreground font-bold">
+              <span className="text-sm text-muted-foreground font-semibold leading-5 tracking-wide">
                 {items.desc}
               </span>
             </div>
           </div>
         ))}
         {data.resume.educations.Extras.map((items, idk) => (
-          <div key={idk} className="flex gap-4">
+          <div key={idk} className="flex flex-col lg:flex-row gap-4 py-[.38rem]">
             <div>
               <svg
                 width="44"
@@ -143,7 +143,7 @@ export default function Education() {
               <span className="text-base font-bold">{items.duration}</span>
               <span className="text-2xl font-black">{items.title}</span>
               <span className="text-xl font-semibold">{items.from}</span>
-              <span className="text-base text-muted-foreground font-bold">
+              <span className="text-sm text-muted-foreground font-semibold leading-5 tracking-wide">
                 {items.desc}
               </span>
             </div>

@@ -10,9 +10,9 @@ export default function Certification() {
         </span>
         <div className="w-full lg:w-32 h-[4px] rounded-full bg-gradient-to-r from-blue-500 to-pink-500"></div>
       </div>
-      <div className="pt-6">
+      <div className="pt-6 divide-y-2">
         {data.resume.certifications.data.map((items, idk) => (
-          <div key={idk} className="w-full flex gap-4 py-4 px-6">
+          <div key={idk} className="w-full flex gap-6 py-5 px-6">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -28,17 +28,17 @@ export default function Certification() {
                 <path d="M116,96.00078a4.004,4.004,0,0,0,4-4V22.00011a4.004,4.004,0,0,0-4-4H12a4.004,4.004,0,0,0-4,4V92.00074a4.004,4.004,0,0,0,4,4H70.60736a11.50419,11.50419,0,0,1,.0108-2.749,13.3832,13.3832,0,0,1-1.01721-1.251H12V37.57837l15.41406-15.4142a1.96161,1.96161,0,0,0,.134-.16406H100.4519a1.96162,1.96162,0,0,0,.134.16406L116.00067,37.579l.00226,54.4217h-7.60425a13.42292,13.42292,0,0,1-1.01685,1.251,11.50411,11.50411,0,0,1,.0108,2.749ZM12,31.92207v-9.922h9.92188Zm94.07813-9.922H116l.00043,9.92239Z"></path>
               </svg>
             </div>
-            <div className="flex-1 grid space-y-2">
+            <div className="flex-1 grid space-y-3">
               <span className="text-xl font-bold">{items.title}</span>
               <span className="text-sm font-bold">{items.from}</span>
-              <div className="text-sm flex gap-4 items-center">
-                <span className="text-muted-foreground font-bold">
+              <div className="flex gap-4 items-center">
+                <span className="text-base text-muted-foreground font-bold">
                   view certificate
                 </span>
                 <a
                   href={items.link}
                   target="_blank"
-                  className="hover:underline flex gap-2 items-center"
+                  className="text-base font-semibold hover:underline hover:underline-offset-4 flex gap-2 items-center"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

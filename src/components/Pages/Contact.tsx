@@ -10,16 +10,16 @@ import Image from "next/image";
 export default function Contact() {
   const [form, setFormData] = React.useState<Object>({});
   return (
-    <div className="w-full h-screen flex items-center">
-      <div className="container max-w-8xl flex flex-col-reverse gap-12 lg:gap-2 lg:flex-row">
-        <div className="flex-1 space-y-12">
+    <div className="w-full h-screen flex items-center sm:pt-24 sm:px-12 lg:px-0 py-4 sm:py-2">
+      <div className="container max-w-8xl flex flex-col-reverse lg:gap-2 lg:flex-row lg:items-center">
+        <div className="flex-1 space-y-6">
           <div className="text-start space-y-2">
             <span className="text-2xl font-black">{data.contacts.title}</span>
             <div className="w-full lg:w-32 h-[4px] rounded-full bg-gradient-to-r from-blue-500 to-pink-500"></div>
           </div>
-          <div className="h-full flex flex-col space-y-4">
+          <div className="h-full flex flex-col flex-wrap">
             {data.contacts.data.map((item: any, idk: any) => (
-              <div key={idk} className="col-span-4 flex gap-4 items-center">
+              <div key={idk} className="flex flex-col sm:flex-row gap-4">
                 <Image
                   src={item.icon}
                   alt={item.media_type}
@@ -27,8 +27,12 @@ export default function Contact() {
                   height={24}
                   className="h-6 w-6"
                 />
-                <span className="text-lg font-bold">{item.media_type} :</span>
-                <span className="text-sm font-semibold">{item.value}</span>
+                <span className="text-xs lg:text-lg font-bold">
+                  {item.media_type} :
+                </span>
+                <span className="text-xs lg:text-sm font-semibold">
+                  {item.value}
+                </span>
               </div>
             ))}
           </div>
@@ -50,9 +54,9 @@ export default function Contact() {
               <div
                 className={`${
                   item.name === "Name"
-                    ? "col-span-2"
+                    ? "col-span-4 sm:col-span-2"
                     : item.name === "Email"
-                    ? "col-span-2"
+                    ? "col-span-4 sm:col-span-2"
                     : "col-span-4"
                 }`}
                 key={idk}
@@ -64,7 +68,7 @@ export default function Contact() {
                       id={item.id}
                       name={item.name}
                       placeholder={item.placeholder}
-                      rows={7}
+                      rows={5}
                       onChange={(
                         event: React.ChangeEvent<HTMLTextAreaElement>
                       ) => {
@@ -114,7 +118,7 @@ export default function Contact() {
                 )}
               </div>
             ))}
-            <Button type="submit" className="col-span-2">
+            <Button type="submit" className="col-span-4 lg:col-span-2">
               Submit
             </Button>
           </form>

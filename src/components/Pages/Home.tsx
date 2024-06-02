@@ -15,7 +15,7 @@ export default function HomeComponent() {
         className="absolute w-auto h-auto p-4 grid text-center leading-loose text-white"
       >
         <span className="text-xl font-bold">{data.home.title}</span>
-        <span className="text-6xl sm:text-7xl font-black dark:text-blue-600">
+        <span className="text-6xl sm:text-5xl font-black dark:text-blue-600">
           {data.home.name}
         </span>
         <div className="grid sm:flex items-baseline gap-4 justify-center">

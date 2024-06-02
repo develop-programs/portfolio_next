@@ -5,12 +5,12 @@ import { Button } from "../ui/button";
 export default function Project() {
   const [hover, setHover] = React.useState(-1);
   return (
-    <div className="w-full h-auto pt-44">
+    <div className="w-full h-auto lg:pt-44 py-4">
       <div className="container max-w-[100vw] grid grid-flow-row grid-cols-3 gap-4">
         {Array.from({ length: 6 }, (_, i) => (
           <div
             key={i}
-            className="relative col-span-1 w-full h-80 bg-slate-500 rounded-md"
+            className="relative col-span-3  lg:col-span-1 w-full h-80 bg-slate-500 rounded-md"
             onMouseEnter={() => setHover(i)}
             onMouseLeave={() => setHover(-1)}
           >
